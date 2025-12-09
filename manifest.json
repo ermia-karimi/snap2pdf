@@ -1,0 +1,16 @@
+{
+    "name": "Snap2Pdf",
+    "short_name": "snap2pdf",
+    "description": " pdf maker",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#7375d6",
+    "theme_color": "#7375d6",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

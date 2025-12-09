@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap2Pdf</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+
+
+    <div id="toast" class="toast"></div>
+
+
+
+    <div class="all">
+
+        <div class="file-upload">
+
+            <input type="file" id="imagePicker" accept="image/*" multiple class="in">
+            <label id="pickLabel" class="btn1" for="imagePicker" title=""></label>
+
+        </div>
+
+
+        <div id="sizeButtons" class="sizes">
+            <button class="size-btn" data-size="a4" title="A4">A4</button>
+            <button class="size-btn" data-size="letter" title="Letter">Letter</button>
+            <button class="size-btn" data-size="fit" title="Fit">Fit</button>
+        </div>
+
+        <!-- 
+        <div id="filterButtons" class="sizes">
+
+            <button class="filter-btn" data-filter="grayscale">Grayscale</button>
+            <button class="filter-btn" data-filter="bright">Bright</button>
+            <button class="filter-btn" data-filter="contrast">Contrast</button>
+        </div> -->
+
+
+
+
+        <div id="convertBtn" class="btn" title="convert PDF"></div>
+
+        <h2 id="hh11" class="hh11"></h2>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
