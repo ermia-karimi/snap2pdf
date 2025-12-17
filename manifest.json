@@ -4,8 +4,8 @@
     "description": " pdf maker",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#7375d6",
-    "theme_color": "#7375d6",
+    "background_color": "#e0e5ec",
+    "theme_color": "#e0e5ec",
     "icons": [
         {
             "src": "logo.png",
