@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.ermia.snap2pdf",
+    "sha256_cert_fingerprints": [
+      "01:DF:0F:82:32:3A:F7:3E:2B:BE:E5:57:2F:E7:26:27:6C:06:1B:E2:B8:34:91:B7:29:9E:8C:91:8A:08:7A:7D"
+    ]
+  }
+}]
